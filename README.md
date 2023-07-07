@@ -1,3 +1,7 @@
+# Real-Time Chat
+- It's a chat application build with MERN Stack.
+- It uses socket.io library for low-latency communication between client and server.
+  
 ## Requirements
 - [Nodejs](https://nodejs.org/en/download)
 - [Mongodb](https://www.mongodb.com/docs/manual/administration/install-community/)
