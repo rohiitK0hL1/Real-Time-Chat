@@ -2,25 +2,36 @@
 - It's a chat application build with MERN Stack.
 - It uses socket.io library for low-latency communication between client and server.
   
-## Requirements
+### Requirements
 - [Nodejs](https://nodejs.org/en/download)
 - [Mongodb](https://www.mongodb.com/docs/manual/administration/install-community/)
 
-Install the dependencies
+Both should be installed and make sure mongodb is running locally.
+
 ```shell
-cd server
-yarn
-cd ..
-cd public
-yarn
+git clone https://github.com/Ishant2004/real-time-chat-app.git
+cd real-time-chat-app
 ```
 
-For Backend: Open another terminal<br>
-(mongoDB must be running in background)<br>
+Now install the dependencies
+```shell
+npm run build
+cd frontend
+npm install
+```
+#### IGNORE all the vulnerabilities...
+
+For Backend<br>
 (currently in root directory)
 ```shell
-cd server
-yarn start
+npm start
+```
+For Frontend: Open another terminal<br>
+(Also make sure mongodb is running in background)<br>
+(currently in root directory)
+```shell
+cd frontend
+npm start
 ```
 
 ## To Run:
